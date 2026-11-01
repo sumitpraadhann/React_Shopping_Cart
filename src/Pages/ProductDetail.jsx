@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useParams,Link } from 'react-router-dom'
-import { initialProducts } from '../Data/product'
 import { useEffect } from 'react'
 import {ArrowLeft, Zap,Tag,ShoppingCart} from 'lucide-react'
 import { usecart } from '../Context/CartContext'
+import { initialProducts } from '../Data/dummyProducts'
 
 const ProductDetail = () => {
    const {addcart} = usecart()

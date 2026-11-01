@@ -1,6 +1,6 @@
 import React from 'react'
-import {initialProducts} from '../Data/product'
 import { Tag } from 'lucide-react'
+import { initialProducts } from '../Data/dummyProducts'
 
 const availableCategores = [
   "All", ...new Set(initialProducts.map(p=>p.category))
